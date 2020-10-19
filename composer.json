@@ -1,0 +1,14 @@
+{
+  "name": "paradox/laravel-bootstrap-blade-preset",
+  "description": "A Laravel preset using Bootstrap as Blade components!",
+  "type": "project",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Reyber Ian E. Yturiaga",
+      "email": "reyberyturiaga@gmail.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {}
+}

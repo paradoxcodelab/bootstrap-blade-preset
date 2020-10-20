@@ -5,6 +5,7 @@ module.exports = Preset.make('laravel-bootstrap-blade-preset')
     .title('Add frontend dependencies')
     .merge({
       devDependencies: {
+        alpinejs: '^2',
         bootstrap: '^4.0.0',
         jquery: '^3.2',
         'popper.js': '^1.12',

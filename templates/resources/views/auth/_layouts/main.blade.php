@@ -7,6 +7,8 @@
     <title>{{ config('app.name', 'Laravel') }}</title>
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
     <script defer src="{{ asset('js/app.js') }}"></script>
+
+    @livewireStyles
 </head>
 <body>
     <div id="app" class="d-flex flex-column min-vh-100">
@@ -24,5 +26,7 @@
         @include('auth._layouts.footer')
         @show
     </div>
+
+    @livewireScripts
 </body>
 </html>

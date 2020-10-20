@@ -18,7 +18,8 @@ module.exports = Preset.make('laravel-bootstrap-blade-preset')
     .title('Add Bootstrap Blade package')
     .merge({
 			require: {
-				'enigma/bootstrap-blade': 'dev-master',
+        'enigma/bootstrap-blade': 'dev-master',
+        'livewire/livewire': '^2.0',
 			}
 		})
     .chain()

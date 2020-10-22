@@ -1,4 +1,4 @@
-<x-bs-navbar bg="dark" dark>
+<x-bs-navbar bg="white" class="shadow-sm">
     <x-bs-container>
         <x-bs-navbar-brand :href="url('/')" :text="config('app.name', 'Laravel')"/>
         <x-bs-navbar-toggler href="#navbarCollapse" :aria-label="__('Toggle navigation')"/>

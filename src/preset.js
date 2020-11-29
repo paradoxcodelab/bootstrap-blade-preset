@@ -21,8 +21,8 @@ module.exports = Preset.make('laravel-bootstrap-blade-preset')
       require: {
         'enigma/bootstrap-blade': 'dev-master',
         'livewire/livewire': '^2.0',
-			}
-		})
+      }
+    })
     .chain()
 
   .copyTemplates()

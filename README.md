@@ -15,6 +15,6 @@
     This boilerplate was derived from Laravel UI.
   <p>
   <br />
-  <pre align="center">npx use-preset paradoxcodelab/laravel-bootstrap-blade-preset</pre>
+  <pre align="center">npx apply paradoxcodelab/laravel-bootstrap-blade-preset</pre>
   &nbsp;
 <p>

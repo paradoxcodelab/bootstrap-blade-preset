@@ -1,27 +1,27 @@
 @extends('auth._layouts.main')
 
 @section('content')
-<x-bs-container>
-    <x-bs-row class="row justify-content-center">
-        <x-bs-column grid="md:8">
-            <x-bs-card>
-                <x-bs-card-header :text="__('Reset Password')"/>
+<x-container>
+    <x-row class="row justify-content-center">
+        <x-column grid="md:8">
+            <x-card>
+                <x-card-header :text="__('Reset Password')"/>
 
-                <x-bs-card-body>
-                    <x-bs-session-message/>
+                <x-card-body>
+                    <x-session-message/>
 
-                    <x-bs-form :action="route('password.email')">
-                        <x-bs-email-field name="email" :label="__('E-Mail Address')" grid="md:4,6" required autocomplete="email" autofocus/>
+                    <x-form :action="route('password.email')">
+                        <x-email-field name="email" :label="__('E-Mail Address')" grid="md:4,6" required autocomplete="email" autofocus/>
 
-                        <x-bs-row class="form-group mb-0">
-                            <x-bs-column grid="md:6" offset="md:4">
-                                <x-bs-button type="submit" variant="primary">{{ __('Send Password Reset Link') }}</x-bs-button>
-                            </x-bs-column>
-                        </x-bs-row>
-                    </x-bs-form>
-                </x-bs-card-body>
-            </x-bs-card>
-        </x-bs-column>
-    </x-bs-row>
-</x-bs-container>
+                        <x-row class="form-group mb-0">
+                            <x-column grid="md:6" offset="md:4">
+                                <x-button type="submit" variant="primary">{{ __('Send Password Reset Link') }}</x-button>
+                            </x-column>
+                        </x-row>
+                    </x-form>
+                </x-card-body>
+            </x-card>
+        </x-column>
+    </x-row>
+</x-container>
 @stop

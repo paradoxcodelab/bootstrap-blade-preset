@@ -1,19 +1,19 @@
 @extends('auth._layouts.main')
 
 @section('content')
-<x-bs-container>
-    <x-bs-row class="justify-content-center">
-        <x-bs-column grid="md:8">
-            <x-bs-card>
-                <x-bs-card-header :text="__('Dashboard')"/>
+<x-container>
+    <x-row class="justify-content-center">
+        <x-column grid="md:8">
+            <x-card>
+                <x-card-header :text="__('Dashboard')"/>
 
-                <x-bs-card-body>
-                    <x-bs-session-message/>
+                <x-card-body>
+                    <x-session-message/>
 
                     {{ __('You are logged in!') }}
-                </x-bs-card-body>
-            </x-bs-card>
-        </x-bs-column>
-    </x-bs-row>
-</x-bs-container>
+                </x-card-body>
+            </x-card>
+        </x-column>
+    </x-row>
+</x-container>
 @stop

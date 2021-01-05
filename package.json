@@ -1,12 +1,11 @@
 {
 	"name": "laravel-bootstrap-blade-preset",
 	"license": "MIT",
-	"preset": "src/preset.js",
+	"preset": "src/preset.ts",
 	"version": "0.0.0",
 	"private": "true",
 	"devDependencies": {
-		"use-preset": "^0",
-		"standard-version": "^8.0.2"
+		"apply": "^0.2.12"
 	},
 	"scripts": {
 		"release": "standard-version --skip.changelog"
